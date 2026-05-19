@@ -21,14 +21,12 @@ The warehouse enables analysis for:
 
 ## Fact Table
 
-| Table Name | Description |
 | `fact_sales` | Stores transactional retail sales records |
 
 
 
 ## Dimension Tables
 
-| Table Name | Description |
 | `dim_customer` | Customer information |
 | `dim_product` | Product hierarchy and category details |
 | `dim_store` | Store and regional mapping |
@@ -76,7 +74,6 @@ SQL-Data-Warehouse-Pristine-Retail-Star-Schema
 
 # 🛠️ Technologies Used
 
-| Technology | Purpose |
 | PostgreSQL | Data Warehouse Database |
 | SQL | Data Querying & Analytics |
 | ER Diagram & Schema Design |
@@ -96,8 +93,6 @@ SQL-Data-Warehouse-Pristine-Retail-Star-Schema
 
 
 # 🧠 Advanced SQL Concepts Used
-
-| SQL Concept | Purpose |
 
 | `RANK()` | Product ranking |
 | `DENSE_RANK()` | Revenue ranking |
