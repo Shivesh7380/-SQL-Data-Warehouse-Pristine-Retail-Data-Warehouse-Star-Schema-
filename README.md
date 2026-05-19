@@ -80,18 +80,6 @@ SQL-Data-Warehouse-Pristine-Retail-Star-Schema
 | CSV | Dataset Storage |
 
 
-# 📊 Business Questions Solved
-
-- Which products generate the highest revenue?
-- What are the top-performing products per region each quarter?
-- Which stores contribute maximum sales?
-- What is the YoY and MoM revenue growth?
-- Which customer segment drives maximum revenue?
-- What are the rolling revenue trends over time?
-- Which products dominate their categories?
-- Which customers have the highest lifetime value?
-
-
 # 🧠 Advanced SQL Concepts Used
 
 | `RANK()` | Product ranking |
