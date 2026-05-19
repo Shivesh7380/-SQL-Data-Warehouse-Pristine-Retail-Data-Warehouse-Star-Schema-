@@ -1,0 +1,2 @@
+# -SQL-Data-Warehouse-Pristine-Retail-Data-Warehouse-Star-Schema-
+Designed a star schema with 1 fact table (sales) and 4 dimensions (customer, product, store, date) to support slice and-dice analysis. Wrote 15+ analytical queries using window functions  to answer business questions like top-10 products per region per quarter. Documented ER diagram and query patterns in GitHub README for reproducibility.
