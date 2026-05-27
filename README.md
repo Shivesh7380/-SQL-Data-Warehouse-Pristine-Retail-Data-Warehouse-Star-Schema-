@@ -194,20 +194,25 @@ SELECT
     annual_revenue,
 
     LAG(annual_revenue, 1)
+    
     OVER (ORDER BY year)
+    
     AS baseline_previous_year,
 
     (
         (
             annual_revenue
             - LAG(annual_revenue, 1)
+            
             OVER (ORDER BY year)
         )
 
         /
 
         LAG(annual_revenue, 1)
+        
         OVER (ORDER BY year)
+        
     ) * 100 AS dynamic_yoy_growth_pct
 
 FROM AnnualSalesAggregation;
