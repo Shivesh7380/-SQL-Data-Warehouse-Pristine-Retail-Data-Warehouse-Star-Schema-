@@ -1,8 +1,8 @@
-# SQL Data Warehouse-Pristine Retail Data Warehouse-Star-Schema
+## SQL Data Warehouse-Pristine Retail Data Warehouse-Star-Schema
 Designed a star schema with 1 fact table (sales) and 4 dimensions (customer, product, store, date) to support slice and-dice analysis. Wrote 15+ analytical queries using window functions  to answer business questions like top-10 products per region per quarter. Documented ER diagram and query patterns in GitHub README for reproducibility.
 
 
-# 📌 Project Overview
+## 📌 Project Overview
 
 This project simulates a retail enterprise data warehouse environment where transactional sales data is modeled into a dimensional schema optimized for analytical reporting.
 
@@ -17,7 +17,7 @@ The warehouse enables analysis for:
 - Market share analysis
 - Rolling averages and cumulative revenue tracking
 
-# 🏗️ Star Schema Architecture
+## 🏗️ Star Schema Architecture
 
 ## Fact Table
 
@@ -35,7 +35,7 @@ The warehouse enables analysis for:
 
 
 
-# 🔑 Relationships
+## 🔑 Relationships
 
 | Parent Table | Child Table | Relationship |
 | `dim_customer` | `fact_sales` | One-to-Many |
@@ -44,7 +44,7 @@ The warehouse enables analysis for:
 | `dim_date` | `fact_sales` | One-to-Many |
 
 
-# 📂 Repository Structure
+## 📂 Repository Structure
 
 SQL-Data-Warehouse-Pristine-Retail-Star-Schema
 │
@@ -72,7 +72,7 @@ SQL-Data-Warehouse-Pristine-Retail-Star-Schema
 └── README.md
 
 
-# 🛠️ Technologies Used
+## 🛠️ Technologies Used
 
 | PostgreSQL | Data Warehouse Database |
 | SQL | Data Querying & Analytics |
@@ -80,7 +80,7 @@ SQL-Data-Warehouse-Pristine-Retail-Star-Schema
 | CSV | Dataset Storage |
 
 
-# 🧠 Advanced SQL Concepts Used
+## 🧠 Advanced SQL Concepts Used
 
 | `RANK()` | Product ranking |
 | `DENSE_RANK()` | Revenue ranking |
@@ -94,7 +94,7 @@ SQL-Data-Warehouse-Pristine-Retail-Star-Schema
 | Window Frames | Time-series analysis |
 
 
-# 📈 Analytical SQL Queries
+## 📈 Analytical SQL Queries
 
 
 ## Query 1: Top 10 High-Performing Products per Region per Fiscal Quarter
@@ -478,7 +478,7 @@ revenue_metric
 FROM ChronoLineTotals;
 
 
-# 📌 Additional Query Coverage
+## 📌 Additional Query Coverage
 
 The project also includes:
 
